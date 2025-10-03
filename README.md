@@ -28,7 +28,7 @@ The goal is educational: to understand every moving part of the Transformer with
 ## Project Structure
 
 ```
-Transformers_scratch/
+numpy-transformer/
 │
 ├── models/
 │   ├── encoder.py
@@ -40,8 +40,8 @@ Transformers_scratch/
 │   └── scaled_dot_product.py
 │
 ├── layers/
-│   ├── normalization.py
-│   └── ...
+│   └── normalization.py
+│   
 │
 ├── embeddings/
 │   └── embedding_numpy.py
@@ -68,8 +68,8 @@ Transformers_scratch/
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/Transformers_scratch.git
-   cd Transformers_scratch
+   git clone https://github.com/MarvelDL/numpy-transformer.git
+   cd numpy-transformer
    ```
 
 2. Run tests for different components:
